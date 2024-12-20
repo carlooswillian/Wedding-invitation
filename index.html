@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convite Thaís & Carlos</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 450px; /* Para limitar no mobile */
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('./Convite_Thais_Carlos.png') no-repeat center center;
+      background-size: cover;
+      z-index: -1;
+    }
+
+    .button {
+      position: absolute;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button-envelope {
+      top: 16%; /* Ajustar conforme a imagem */
+      left: 35%;
+      width: 30%;
+      height: 20%;
+    }
+
+    .button-presenca {
+      bottom: 18%;
+      left: 14%;
+      width: 20%;
+      height: 10%;
+    }
+
+    .button-local {
+      bottom: 18%;
+      left: 40%;
+      width: 20%;
+      height: 10%;
+    }
+
+    .button-presentes {
+      bottom: 18%;
+      left: 67%;
+      width: 20%;
+      height: 10%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="background"></div>
+    <a href="LINK_DO_ENVELOPE" class="button button-envelope"></a>
+    <a href="LINK_CONFIRME_SUA_PRESENCA" class="button button-presenca"></a>
+    <a href="LINK_CONFIRA_O_LOCAL" class="button button-local"></a>
+    <a href="LINK_SUGESTAO_PRESENTES" class="button button-presentes"></a>
+  </div>
+</body>
+</html>
