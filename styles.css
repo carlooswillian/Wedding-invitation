@@ -1,62 +1,57 @@
-body, html {
+body {
   margin: 0;
   padding: 0;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  height: 100vh;
+  background: url('Convite_Thais_Carlos.png') no-repeat center center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
 }
 
 .container {
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 450px; /* Para limitar no mobile */
 }
 
-.background {
+.invisible-button {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://carlooswillian.github.io/Wedding-invitation/convite-thais-carlos.png') no-repeat center center; 
-  background-size: cover;
-  z-index: -1;
-}
-
-.button {
-  position: absolute;
+  display: block;
   background: transparent;
   border: none;
   cursor: pointer;
 }
 
-.button-envelope {
-  top: 16%; /* Ajustar conforme a imagem */
-  left: 35%;
-  width: 30%;
-  height: 20%;
+/* Botão no envelope */
+#btn-envelope {
+  top: 28%;
+  left: 32%;
+  width: 20%;
+  height: 18%;
 }
 
-.button-presenca {
-  bottom: 18%;
-  left: 14%;
-  width: 20%;
+/* Botão "Confirme sua Presença" */
+#btn-presenca {
+  bottom: 20%;
+  left: 17%;
+  width: 10%;
   height: 10%;
 }
 
-.button-local {
-  bottom: 18%;
-  left: 40%;
-  width: 20%;
+/* Botão "Confira o Local" */
+#btn-local {
+  bottom: 20%;
+  left: 43%;
+  width: 10%;
   height: 10%;
 }
 
-.button-presentes {
-  bottom: 18%;
-  left: 67%;
-  width: 20%;
+/* Botão "Sugestão de Presentes" */
+#btn-presentes {
+  bottom: 20%;
+  left: 68%;
+  width: 10%;
   height: 10%;
 }
