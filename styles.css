@@ -26,7 +26,7 @@ body {
 
 /* Botão no envelope */
 #btn-envelope {
-  top: 8vh;
+  top: 4vh;
   left: 30vw;
   width: 40vw;
   height: 25vh;
@@ -34,15 +34,15 @@ body {
 
 /* Botão "Confirme sua Presença" */
 #btn-presenca {
-  bottom: 10vh;
-  left: 16vw;
+  bottom: 8vh;
+  left: 20vw;
   width: 15vw;
   height: 15vw;
 }
 
 /* Botão "Confira o Local" */
 #btn-local {
-  bottom: 10vh;
+  bottom: 8vh;
   left: 42vw;
   width: 15vw;
   height: 15vw;
@@ -50,8 +50,8 @@ body {
 
 /* Botão "Sugestão de Presentes" */
 #btn-presentes {
-  bottom: 10vh;
-  left: 62vw;
+  bottom: 8vh;
+  left: 66vw;
   width: 15vw;
   height: 15vw;
 }
