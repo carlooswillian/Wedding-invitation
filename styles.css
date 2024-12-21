@@ -1,26 +1,57 @@
-/* Remove margens e preenche toda a tela */
-body, html {
+body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
-/* Container do vídeo que ocupa toda a tela */
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  background: url('Convite_Thais_Carlos.png') no-repeat center center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
 }
 
-/* O iframe ocupa 100% da largura e altura */
-iframe {
-  width: 100%;
-  height: 100%;
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.invisible-button {
+  position: absolute;
+  display: block;
+  background: transparent;
   border: none;
+  cursor: pointer;
+}
+
+/* Botão no envelope */
+#btn-envelope {
+  top: 4vh;
+  left: 30vw;
+  width: 40vw;
+  height: 25vh;
+}
+
+/* Botão "Confirme sua Presença" */
+#btn-presenca {
+  bottom: 12vh;
+  left: 16vw;
+  width: 15vw;
+  height: 15vw;
+}
+
+/* Botão "Confira o Local" */
+#btn-local {
+  bottom: 12vh;
+  left: 42vw;
+  width: 15vw;
+  height: 15vw;
+}
+
+/* Botão "Sugestão de Presentes" */
+#btn-presentes {
+  bottom: 12vh;
+  left: 70vw;
+  width: 15vw;
+  height: 15vw;
 }
